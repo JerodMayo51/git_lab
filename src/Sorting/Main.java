@@ -21,13 +21,16 @@ public class Main {
 		System.out.println();
 		
 		System.out.println("Sorted Array:");
+<<<<<<< HEAD
 		
-		ReverseSort.reverseSort(unsortedArray);
-		for (int i: unsortedArray) {
-				System.out.print(i + " ");
+=======
+		//TODO: sort the array and print out its contents
+		int[] sorted = InsertionSort.insertionSort(unsortedArray);
+		for (int i : sorted) {
+			System.out.print(i + " ");
 		}
 		System.out.println();
-		
+>>>>>>> Added insertionSort
 		
 	}
 
